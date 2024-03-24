@@ -1,0 +1,5 @@
+[DEBUG] 2024-03-23 12:44:21.501 [main] zxc - the built-in DEBUG level
+[INFO ] 2024-03-23 12:44:21.503 [main] zxc - the built-in INFO level
+[WARN ] 2024-03-23 12:44:21.503 [main] zxc - the built-in WARN level
+[ERROR] 2024-03-23 12:44:21.503 [main] zxc - the built-in ERROR level
+[FATAL] 2024-03-23 12:44:21.503 [main] zxc - the built-in FATAL level
