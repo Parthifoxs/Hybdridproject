@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testcase.ContactTestcase">
+      <class name="Testcase.LogoutTestcase">
         <methods>
           <include name="report"/>
+          <include name="logout"/>
           <include name="stopReport"/>
-          <include name="setvalues"/>
           <include name="startapp"/>
           <include name="startreport"/>
-          <include name="contactcase"/>
           <include name="closeapp"/>
+          <include name="setvalues"/>
         </methods>
-      </class> <!-- Testcase.ContactTestcase -->
+      </class> <!-- Testcase.LogoutTestcase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

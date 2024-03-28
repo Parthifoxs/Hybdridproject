@@ -14,4 +14,9 @@
 		   <class name="Testcase.ContactTestcase"/>
 	  </classes>
   </test>
+    <test name="Testlogout">
+	  <classes>
+		   <class name="Testcase.LogoutTestcase"/>
+	  </classes>
+  </test>
 </suite> <!-- Suite -->

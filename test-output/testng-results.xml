@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-21T12:09:45 IST" name="Suite" finished-at="2024-03-21T12:10:28 IST" duration-ms="42619">
+  <suite started-at="2024-03-28T10:06:27 IST" name="Suite" finished-at="2024-03-28T10:07:27 IST" duration-ms="59543">
     <groups>
     </groups>
-    <test started-at="2024-03-21T12:09:45 IST" name="Testlogin" finished-at="2024-03-21T12:10:09 IST" duration-ms="23313">
+    <test started-at="2024-03-28T10:06:27 IST" name="Testlogin" finished-at="2024-03-28T10:06:48 IST" duration-ms="21116">
       <class name="Testcase.LoginTest">
-        <test-method is-config="true" signature="startapp()[pri:0, instance:Testcase.LoginTest@1338fb5]" started-at="2024-03-21T12:09:45 IST" name="startapp" finished-at="2024-03-21T12:10:03 IST" duration-ms="17404" status="PASS">
+        <test-method is-config="true" signature="startapp()[pri:0, instance:Testcase.LoginTest@2f1de2d6]" started-at="2024-03-28T10:06:27 IST" name="startapp" finished-at="2024-03-28T10:06:44 IST" duration-ms="16436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startapp -->
-        <test-method is-config="true" signature="setvalues()[pri:0, instance:Testcase.LoginTest@1338fb5]" started-at="2024-03-21T12:10:03 IST" name="setvalues" finished-at="2024-03-21T12:10:03 IST" depends-on-methods="Base.BaseClass.startapp" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setvalues()[pri:0, instance:Testcase.LoginTest@2f1de2d6]" started-at="2024-03-28T10:06:44 IST" name="setvalues" finished-at="2024-03-28T10:06:44 IST" depends-on-methods="Base.BaseClass.startapp" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setvalues -->
-        <test-method is-config="true" signature="report()[pri:0, instance:Testcase.LoginTest@1338fb5]" started-at="2024-03-21T12:10:03 IST" name="report" finished-at="2024-03-21T12:10:03 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="report()[pri:0, instance:Testcase.LoginTest@2f1de2d6]" started-at="2024-03-28T10:06:44 IST" name="report" finished-at="2024-03-28T10:06:44 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method signature="logincase(java.lang.String,java.lang.String)[pri:0, instance:Testcase.LoginTest@1338fb5]" started-at="2024-03-21T12:10:03 IST" name="logincase" data-provider="fetch" finished-at="2024-03-21T12:10:04 IST" duration-ms="202" status="PASS">
+        <test-method signature="logincase(java.lang.String,java.lang.String)[pri:0, instance:Testcase.LoginTest@2f1de2d6]" started-at="2024-03-28T10:06:44 IST" name="logincase" data-provider="fetch" finished-at="2024-03-28T10:06:45 IST" duration-ms="1072" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,7 +35,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logincase -->
-        <test-method signature="logincase(java.lang.String,java.lang.String)[pri:0, instance:Testcase.LoginTest@1338fb5]" started-at="2024-03-21T12:10:04 IST" name="logincase" data-provider="fetch" finished-at="2024-03-21T12:10:07 IST" duration-ms="2943" status="PASS">
+        <test-method signature="logincase(java.lang.String,java.lang.String)[pri:0, instance:Testcase.LoginTest@2f1de2d6]" started-at="2024-03-28T10:06:45 IST" name="logincase" data-provider="fetch" finished-at="2024-03-28T10:06:46 IST" duration-ms="433" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,7 +51,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logincase -->
-        <test-method signature="logincase(java.lang.String,java.lang.String)[pri:0, instance:Testcase.LoginTest@1338fb5]" started-at="2024-03-21T12:10:07 IST" name="logincase" data-provider="fetch" finished-at="2024-03-21T12:10:07 IST" duration-ms="528" status="PASS">
+        <test-method signature="logincase(java.lang.String,java.lang.String)[pri:0, instance:Testcase.LoginTest@2f1de2d6]" started-at="2024-03-28T10:06:46 IST" name="logincase" data-provider="fetch" finished-at="2024-03-28T10:06:47 IST" duration-ms="1415" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logincase -->
-        <test-method signature="logincase(java.lang.String,java.lang.String)[pri:0, instance:Testcase.LoginTest@1338fb5]" started-at="2024-03-21T12:10:07 IST" name="logincase" data-provider="fetch" finished-at="2024-03-21T12:10:09 IST" duration-ms="1467" status="PASS">
+        <test-method signature="logincase(java.lang.String,java.lang.String)[pri:0, instance:Testcase.LoginTest@2f1de2d6]" started-at="2024-03-28T10:06:47 IST" name="logincase" data-provider="fetch" finished-at="2024-03-28T10:06:48 IST" duration-ms="1096" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,43 +83,67 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logincase -->
-        <test-method is-config="true" signature="closeapp()[pri:0, instance:Testcase.LoginTest@1338fb5]" started-at="2024-03-21T12:10:09 IST" name="closeapp" finished-at="2024-03-21T12:10:09 IST" duration-ms="78" status="PASS">
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:Testcase.LoginTest@2f1de2d6]" started-at="2024-03-28T10:06:48 IST" name="closeapp" finished-at="2024-03-28T10:06:48 IST" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
       </class> <!-- Testcase.LoginTest -->
     </test> <!-- Testlogin -->
-    <test started-at="2024-03-21T12:10:09 IST" name="Testcontact" finished-at="2024-03-21T12:10:28 IST" duration-ms="19295">
+    <test started-at="2024-03-28T10:06:48 IST" name="Testcontact" finished-at="2024-03-28T10:07:08 IST" duration-ms="19782">
       <class name="Testcase.ContactTestcase">
-        <test-method is-config="true" signature="startreport()[pri:0, instance:Testcase.ContactTestcase@43b6123e]" started-at="2024-03-21T12:09:45 IST" name="startreport" finished-at="2024-03-21T12:09:45 IST" duration-ms="85" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startreport -->
-        <test-method is-config="true" signature="startapp()[pri:0, instance:Testcase.ContactTestcase@43b6123e]" started-at="2024-03-21T12:10:09 IST" name="startapp" finished-at="2024-03-21T12:10:18 IST" duration-ms="9411" status="PASS">
+        <test-method is-config="true" signature="startapp()[pri:0, instance:Testcase.ContactTestcase@5adb0db3]" started-at="2024-03-28T10:06:48 IST" name="startapp" finished-at="2024-03-28T10:07:01 IST" duration-ms="12983" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startapp -->
-        <test-method is-config="true" signature="setvalues()[pri:0, instance:Testcase.ContactTestcase@43b6123e]" started-at="2024-03-21T12:10:18 IST" name="setvalues" finished-at="2024-03-21T12:10:18 IST" depends-on-methods="Base.BaseClass.startapp" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setvalues()[pri:0, instance:Testcase.ContactTestcase@5adb0db3]" started-at="2024-03-28T10:07:01 IST" name="setvalues" finished-at="2024-03-28T10:07:01 IST" depends-on-methods="Base.BaseClass.startapp" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setvalues -->
-        <test-method is-config="true" signature="report()[pri:0, instance:Testcase.ContactTestcase@43b6123e]" started-at="2024-03-21T12:10:18 IST" name="report" finished-at="2024-03-21T12:10:18 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="report()[pri:0, instance:Testcase.ContactTestcase@5adb0db3]" started-at="2024-03-28T10:07:01 IST" name="report" finished-at="2024-03-28T10:07:01 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method signature="contactcase()[pri:0, instance:Testcase.ContactTestcase@43b6123e]" started-at="2024-03-21T12:10:18 IST" name="contactcase" finished-at="2024-03-21T12:10:28 IST" duration-ms="9775" status="PASS">
+        <test-method signature="contactcase()[pri:0, instance:Testcase.ContactTestcase@5adb0db3]" started-at="2024-03-28T10:07:01 IST" name="contactcase" finished-at="2024-03-28T10:07:08 IST" duration-ms="6713" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactcase -->
-        <test-method is-config="true" signature="closeapp()[pri:0, instance:Testcase.ContactTestcase@43b6123e]" started-at="2024-03-21T12:10:28 IST" name="closeapp" finished-at="2024-03-21T12:10:28 IST" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:Testcase.ContactTestcase@5adb0db3]" started-at="2024-03-28T10:07:08 IST" name="closeapp" finished-at="2024-03-28T10:07:08 IST" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
-        <test-method is-config="true" signature="stopReport()[pri:0, instance:Testcase.ContactTestcase@43b6123e]" started-at="2024-03-21T12:10:28 IST" name="stopReport" finished-at="2024-03-21T12:10:28 IST" duration-ms="224" status="PASS">
+      </class> <!-- Testcase.ContactTestcase -->
+    </test> <!-- Testcontact -->
+    <test started-at="2024-03-28T10:07:08 IST" name="Testlogout" finished-at="2024-03-28T10:07:27 IST" duration-ms="18627">
+      <class name="Testcase.LogoutTestcase">
+        <test-method is-config="true" signature="startreport()[pri:0, instance:Testcase.LogoutTestcase@253d9f73]" started-at="2024-03-28T10:06:27 IST" name="startreport" finished-at="2024-03-28T10:06:27 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreport -->
+        <test-method is-config="true" signature="startapp()[pri:0, instance:Testcase.LogoutTestcase@253d9f73]" started-at="2024-03-28T10:07:08 IST" name="startapp" finished-at="2024-03-28T10:07:24 IST" duration-ms="15610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startapp -->
+        <test-method is-config="true" signature="setvalues()[pri:0, instance:Testcase.LogoutTestcase@253d9f73]" started-at="2024-03-28T10:07:24 IST" name="setvalues" finished-at="2024-03-28T10:07:24 IST" depends-on-methods="Base.BaseClass.startapp" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setvalues -->
+        <test-method is-config="true" signature="report()[pri:0, instance:Testcase.LogoutTestcase@253d9f73]" started-at="2024-03-28T10:07:24 IST" name="report" finished-at="2024-03-28T10:07:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method signature="logout()[pri:0, instance:Testcase.LogoutTestcase@253d9f73]" started-at="2024-03-28T10:07:24 IST" name="logout" finished-at="2024-03-28T10:07:27 IST" duration-ms="2934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:Testcase.LogoutTestcase@253d9f73]" started-at="2024-03-28T10:07:27 IST" name="closeapp" finished-at="2024-03-28T10:07:27 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:Testcase.LogoutTestcase@253d9f73]" started-at="2024-03-28T10:07:27 IST" name="stopReport" finished-at="2024-03-28T10:07:27 IST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopReport -->
-      </class> <!-- Testcase.ContactTestcase -->
-    </test> <!-- Testcontact -->
+      </class> <!-- Testcase.LogoutTestcase -->
+    </test> <!-- Testlogout -->
   </suite> <!-- Suite -->
 </testng-results>

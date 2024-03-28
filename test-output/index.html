@@ -56,7 +56,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,6 +109,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcase.LoginTest" class="method navigator-link" hash-for-method="logincase(Admin1, admin)">logincase(Admin1, admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Testcase.LoginTest" class="method navigator-link" hash-for-method="logincase(jkca, admin123)">logincase(jkca, admin123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -119,12 +124,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Testcase.LoginTest" class="method navigator-link" hash-for-method="logincase(Admin1, admin)">logincase(Admin1, admin)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Testcase.LoginTest" class="method navigator-link" hash-for-method="logincase(Admin, admin123)">logincase(Admin, admin123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Testcase.LoginTest" class="method navigator-link" hash-for-method="logincase(Admin, admin123)">logincase(Admin, admin123)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Testcase.LogoutTestcase" class="method navigator-link" hash-for-method="logout">logout</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -142,9 +147,32 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">Testcase.ContactTestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactcase">
+                  </a> <!-- contactcase -->
+                  <span class="method-name">contactcase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">Testcase.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logincase(Admin1, admin)">
+                  </a> <!-- logincase(Admin1, admin) -->
+                  <span class="method-name">logincase</span>
+                  <span class="parameters">(Admin1, admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="logincase(jkca, admin123)">
@@ -163,14 +191,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="logincase(Admin1, admin)">
-                  </a> <!-- logincase(Admin1, admin) -->
-                  <span class="method-name">logincase</span>
-                  <span class="parameters">(Admin1, admin)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="logincase(Admin, admin123)">
                   </a> <!-- logincase(Admin, admin123) -->
                   <span class="method-name">logincase</span>
@@ -182,14 +202,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Testcase.ContactTestcase</span>
+              <span class="class-name">Testcase.LogoutTestcase</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="contactcase">
-                  </a> <!-- contactcase -->
-                  <span class="method-name">contactcase</span>
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -214,6 +234,11 @@
       &lt;class name=&quot;Testcase.ContactTestcase&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Testcontact --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Testlogout&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Testcase.LogoutTestcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testlogout --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -229,6 +254,9 @@
               </li>
               <li>
                 <span class="test-name">Testcontact (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Testlogout (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -254,32 +282,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'contactcase')
 data.setCell(0, 2, 'Testcase.ContactTestcase')
-data.setCell(0, 3, 9775);
+data.setCell(0, 3, 6713);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'logincase')
-data.setCell(1, 2, 'Testcase.LoginTest')
-data.setCell(1, 3, 2943);
+data.setCell(1, 1, 'logout')
+data.setCell(1, 2, 'Testcase.LogoutTestcase')
+data.setCell(1, 3, 2934);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'logincase')
 data.setCell(2, 2, 'Testcase.LoginTest')
-data.setCell(2, 3, 1467);
+data.setCell(2, 3, 1415);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'logincase')
 data.setCell(3, 2, 'Testcase.LoginTest')
-data.setCell(3, 3, 528);
+data.setCell(3, 3, 1096);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'logincase')
 data.setCell(4, 2, 'Testcase.LoginTest')
-data.setCell(4, 3, 202);
+data.setCell(4, 3, 1072);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logincase')
+data.setCell(5, 2, 'Testcase.LoginTest')
+data.setCell(5, 3, 433);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -305,7 +337,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Testcase.ContactTestcase</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Testcase.LogoutTestcase</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">startreport</span>
                 <span class="method-start">0 ms</span>
@@ -315,62 +347,85 @@ return data;
               <div class="chronological-class-name">Testcase.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">startapp</span>
-                <span class="method-start">87 ms</span>
+                <span class="method-start">113 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-test before">
                 <span class="method-name">setvalues</span>
-                <span class="method-start">17491 ms</span>
+                <span class="method-start">16549 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">report</span>
-                <span class="method-start">17506 ms</span>
+                <span class="method-start">16561 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">logincase(Admin1, admin)</span>
-                <span class="method-start">18172 ms</span>
+                <span class="method-start">17148 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logincase(Admin, sad)</span>
-                <span class="method-start">18378 ms</span>
+                <span class="method-start">18223 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logincase(jkca, admin123)</span>
-                <span class="method-start">21322 ms</span>
+                <span class="method-start">18657 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logincase(Admin, admin123)</span>
-                <span class="method-start">21851 ms</span>
+                <span class="method-start">20074 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeapp</span>
-                <span class="method-start">23321 ms</span>
+                <span class="method-start">21172 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Testcase.ContactTestcase</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">startapp</span>
-                <span class="method-start">23410 ms</span>
+                <span class="method-start">21240 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-test before">
                 <span class="method-name">setvalues</span>
-                <span class="method-start">32821 ms</span>
+                <span class="method-start">34223 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">report</span>
-                <span class="method-start">32822 ms</span>
+                <span class="method-start">34223 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">contactcase</span>
-                <span class="method-start">32822 ms</span>
+                <span class="method-start">34224 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeapp</span>
-                <span class="method-start">42598 ms</span>
+                <span class="method-start">40938 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcase.LogoutTestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">startapp</span>
+                <span class="method-start">41027 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setvalues</span>
+                <span class="method-start">56637 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">report</span>
+                <span class="method-start">56637 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">56638 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeapp</span>
+                <span class="method-start">59573 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">stopReport</span>
-                <span class="method-start">42710 ms</span>
+                <span class="method-start">59658 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
